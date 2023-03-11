@@ -1,0 +1,102 @@
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul,
+ol {
+  text-align: left;
+  line-height: 26px;
+
+  list-style-position: inside;
+}
+
+li + li {
+  margin-top: 1rem;
+}
+
+.subtitle {
+  color: #1b1b1b;
+  text-transform: capitalize;
+}
+
+body {
+  min-height: 100vh;
+  background: #eaeaea;
+
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  color: #39393a;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 4rem;
+  text-align: center;
+  padding-inline: 25rem;
+}
+
+#page {
+  padding: 5rem 1.6rem;
+  margin: 0 auto;
+
+  max-width: 100rem;
+}
+
+.recipe {
+  background: #ffffff;
+  padding: 7rem;
+  border-radius: 10px;
+}
+
+.recipe + .recipe {
+  margin-top: 3rem;
+}
+
+.main-title {
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+
+figure .image {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+figure figcaption.image-legend {
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+section h2.subtitle {
+  margin: 4rem 0;
+}
+
+footer {
+  margin: 4rem 0 0;
+}
+
+footer .subtitle {
+  margin-bottom: 4rem;
+}
+
+footer > p {
+  text-align: left;
+}
+
+main > p {
+  margin-top: 4rem;
+}
